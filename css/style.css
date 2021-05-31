@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* navigaion */
+nav {
+  background-color: #0d0d0d;
+  display: flex;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav li {
+  padding: 5px;
+}
+
+/* hero */
+#hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d0d0d;
+  background-image: url(../media/img/hero-bw.png);
+  background-repeat: no-repeat;
+}
+
+#hero h1 {
+  color: #fff;
+}
+
+#hero h2 {
+  color: #fff;
+}
+
+#hero h3 {
+  color: #fff;
+}
+
+.cta {
+  color: #fff;
+  background-color: #d21f46;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Portfolio */
+#portfolio {
+  margin: 30px auto;
+  width: 80%;
+}
+
+#portfolio main {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#portfolio h2 {
+  text-align: center;
+}
+
+#portfolio main figure {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+}
+
+#portfolio button {
+  text-align: center;
+}
+
+/* testmonial */
+#testmonial {
+  margin: 30px auto;
+  width: 80%;
+}
+
+#testmonial h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#testmonial main {
+  display: flex;
+  gap: 10px;
+}
+
+#testmonial img {
+  width: 150px;
+  height: 150px;
+}
+
+/* blog */
+#blog {
+  margin: 30px auto;
+  width: 80%;
+}
+
+#blog h2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#blog main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#blog a {
+  text-decoration: none;
+  color: #d21f46;
+  text-align: end;
+}
+
+/* footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #0d0d0d;
+  padding: 20px;
+}
+
+footer #social {
+  display: flex;
+  justify-content: center;
+}
+
+footer figure img {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+footer h3 {
+  color: #fff;
+  margin: 0 auto;
+}
