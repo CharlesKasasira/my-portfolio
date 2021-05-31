@@ -6,60 +6,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./media/img/icon.png" type="image/x-icon" />
     <title>Kasasira</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- navigation bar -->
-    <nav>
-      <a href="#home">KASASIRA</a>
-      <li><a href="#">HOME</a></li>
-      <li><a href="#">WORK</a></li>
-      <li><a href="#">ABOUT</a></li>
-      <li><a href="#">CONTACT</a></li>
+
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">KASASIRA</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample03"
+          aria-controls="navbarsExample03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample03">
+          <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">WORK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <!-- end navigation bar -->
 
     <!-- Hero section  -->
     <section id="hero">
-      <h1>Charles Kasasira</h1>
-      <h3>Front-End Developer</h3>
-      <h3>UI/UX Design</h3>
-      <button class="cta">My Portfolio</button>
+      <div class="hero">
+        <h1>
+          Charles Kasasira
+          <span id="holder">Lorem ipsum dolor sit amet.</span>
+        </h1>
+        <h3>Front-End Developer</h3>
+        <h3>UI/UX Design</h3>
+        <button class="cta">My Portfolio</button>
+      </div>
     </section>
+
     <!-- end hero section -->
 
     <!-- Portfolio section -->
     <section id="portfolio">
       <h2>Portfolio</h2>
-      <main>
-        <aticle>
-          <figure>
-            <img src="./media/img/boh1.png" alt="Byte of hope logo" />
-          </figure>
-          <h3>Byte Of Hope</h3>
-          <p>I currently work on Byte Of Hope as a graphics designer</p>
-        </aticle>
-        <aticle>
-          <figure>
-            <img src="./media/img/whd-logo.png" alt="whd Technologies logo" />
-          </figure>
-          <h3>WHD Technologies</h3>
-          <p>
-            I had the opportunity to work with Goph Technologies as a graphics
-            designer
-          </p>
-        </aticle>
-        <aticle>
-          <figure>
-            <img src="./media/img/wireframe1.png" alt="Byte of hope logo" />
-          </figure>
-          <h3>My Portfolio</h3>
-          <p>
-            I designed my portfolio UI in figma and built it(This exact one you
-            are seeing)
-            <a href="#">link to wireframes</a>
-          </p>
-        </aticle>
+      <main class="row" data-masonry='{"percentPosition": true }'>
+        <div class="col-sm-6 col-lg-3 mb-2">
+          <div class="card">
+            <aticle class="card-body">
+              <figure>
+                <img src="./media/img/boh1.png" alt="Byte of hope logo" />
+              </figure>
+              <h3 class="card-title">Byte Of Hope</h3>
+              <p class="card-text">
+                I currently work on Byte Of Hope as a graphics designer
+              </p>
+            </aticle>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 mb-4">
+          <div class="card">
+            <aticle class="card-body">
+              <figure>
+                <img
+                  src="./media/img/whd-logo.png"
+                  alt="whd Technologies logo"
+                />
+              </figure>
+              <h3 class="card-title">WHD Technologies</h3>
+              <p class="card-text">
+                I had the opportunity to work with Goph Technologies as a
+                graphics designer
+              </p>
+            </aticle>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3 mb-4">
+          <div class="card">
+            <aticle class="card-body">
+              <figure>
+                <img src="./media/img/wireframe1.png" alt="Byte of hope logo" />
+              </figure>
+              <h3 class="card-title">My Portfolio</h3>
+              <p class="card-text">
+                I designed my portfolio UI in figma and built it(This exact one
+                you are seeing)
+                <a href="#">link to wireframes</a>
+              </p>
+            </aticle>
+          </div>
+        </div>
       </main>
       <button class="cta">Hire me</button>
     </section>
@@ -68,37 +121,43 @@
     <!-- Testmonial section  -->
     <section id="testmonial">
       <h2>Testmonials</h2>
-      <main>
-        <article>
-          <figure>
-            <img src="./media/img/guy.png" alt="guy photo" />
-          </figure>
-          <h3>Byte Of Hope</h3>
-          <p>
-            I had the opportunity to work with Goph Technologies as a graphics
-            designer
-          </p>
-        </article>
-        <article>
-          <figure>
-            <img src="./media/img/guy.png" alt="guy photo" />
-          </figure>
-          <h3>Byte Of Hope</h3>
-          <p>
-            I had the opportunity to work with Goph Technologies as a graphics
-            designer
-          </p>
-        </article>
-        <article>
-          <figure>
-            <img src="./media/img/guy.png" alt="guy photo" />
-          </figure>
-          <h3>Byte Of Hope</h3>
-          <p>
-            I had the opportunity to work with Goph Technologies as a graphics
-            designer
-          </p>
-        </article>
+      <main class="row" data-masonry='{"percentPosition": true }'>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <article>
+            <figure>
+              <img src="./media/img/guy.png" alt="guy photo" />
+            </figure>
+            <h3>Byte Of Hope</h3>
+            <p>
+              I had the opportunity to work with Goph Technologies as a graphics
+              designer
+            </p>
+          </article>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <article>
+            <figure>
+              <img src="./media/img/guy.png" alt="guy photo" />
+            </figure>
+            <h3>Byte Of Hope</h3>
+            <p>
+              I had the opportunity to work with Goph Technologies as a graphics
+              designer
+            </p>
+          </article>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <article>
+            <figure>
+              <img src="./media/img/guy.png" alt="guy photo" />
+            </figure>
+            <h3>Byte Of Hope</h3>
+            <p>
+              I had the opportunity to work with Goph Technologies as a graphics
+              designer
+            </p>
+          </article>
+        </div>
       </main>
     </section>
     <!-- end testmonial section  -->
@@ -106,30 +165,34 @@
     <!-- blog section  -->
     <section id="blog">
       <h2>My Blog</h2>
-      <main>
-        <article>
-          <figure>
-            <img src="./media/img/web.png" alt="web photo" />
-          </figure>
-          <h3>Byte Of Hope</h3>
-          <p>
-            I had the opportunity to work with Goph Technologies(now WHD
-            Technologies, whd.biz) as a graphics designer
-          </p>
-        </article>
-        <article>
-          <figure>
-            <img src="./media/img/web.png" alt=" web photo" />
-          </figure>
-          <h3>Byte Of Hope</h3>
-          <p>
-            I had the opportunity to work with Goph Technologies(now WHD
-            Technologies, whd.biz) as a graphics designer
-          </p>
-        </article>
+      <main class="row" data-masonry='{"percentPosition": true }'>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <article>
+            <figure>
+              <img src="./media/img/web.png" alt="web photo" />
+            </figure>
+            <h3>Byte Of Hope</h3>
+            <p>
+              I had the opportunity to work with Goph Technologies(now WHD
+              Technologies, whd.biz) as a graphics designer
+            </p>
+          </article>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <article>
+            <figure>
+              <img src="./media/img/web.png" alt=" web photo" />
+            </figure>
+            <h3>Byte Of Hope</h3>
+            <p>
+              I had the opportunity to work with Goph Technologies(now WHD
+              Technologies, whd.biz) as a graphics designer
+            </p>
+          </article>
+        </div>
       </main>
       <a href="#">
-        <p>Read more</p>
+        <p>Read more &raquo;</p>
       </a>
     </section>
     <!-- end blog section  -->
@@ -149,5 +212,6 @@
       </div>
       <h3>&copy; kasasira 2021</h3>
     </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
