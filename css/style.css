@@ -46,8 +46,8 @@ nav li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #0d0d0d;
-  background-position: top center;
+  background-color: #080808;
+  background-position: center;
   background-image: url(../media/img/herobw.png);
   background-repeat: no-repeat;
 }
@@ -147,7 +147,7 @@ nav li {
 
 /* blog */
 #blog {
-  margin: 30px auto;
+  margin-top: 30px;
   background-color: gray;
 }
 
