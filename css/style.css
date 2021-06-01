@@ -140,11 +140,6 @@ nav li {
   padding-bottom: 20px;
 }
 
-#testmonial main {
-  display: flex;
-  gap: 10px;
-}
-
 #testmonial img {
   width: 150px;
   height: 150px;
