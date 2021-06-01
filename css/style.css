@@ -49,6 +49,7 @@ nav li {
   background-color: #0d0d0d;
   background-position: top center;
   background-image: url(../media/img/herobw.png);
+  background-repeat: no-repeat;
 }
 
 #hero .hero {
@@ -76,6 +77,12 @@ nav li {
   padding: 10px 15px;
   border: none;
   border-radius: 8px;
+  text-decoration: none;
+}
+
+.cta:hover {
+  color: #000;
+  background-color: #fff;
 }
 
 /* Portfolio Section */
