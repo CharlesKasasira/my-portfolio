@@ -153,6 +153,7 @@ nav li {
 /* blog */
 #blog {
   margin: 30px auto;
+  background-color: gray;
 }
 
 #blog h2 {
