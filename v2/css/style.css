@@ -39,6 +39,12 @@ nav li {
   padding: 5px;
 }
 
+
+
+.nav-item{
+  padding-left: 50px;
+}
+
 /* hero */
 #hero {
   height: 100vh;
@@ -46,32 +52,24 @@ nav li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #080808;
   background-position: center;
-  background-image: url(../media/img/herobw.png);
+  background-image: url(../media/img/kasasira.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#hero .hero {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 50px;
-  justify-content: flex-start;
-}
 
 #hero h1 {
   color: #fff;
 }
 
-#hero h2 {
-  color: #fff;
-}
-
 #hero h3 {
   color: #fff;
+  margin-bottom: 30px;
 }
 
 .cta {
+  width: 150px;
   color: #fff;
   background-color: #d21f46;
   padding: 10px 15px;
@@ -89,7 +87,8 @@ nav li {
 #portfolio {
   flex-direction: column;
   max-width: 1200px;
-  margin: 30px auto;
+  margin: 0 auto;
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -123,8 +122,19 @@ nav li {
   text-align: center;
 } */
 
+#portfolio .card {
+  width: 300px;
+  height: 350px;
+  padding: 0;
+  overflow: hidden;
+}
+
+#portfolio h2{
+  margin-bottom: 50px;
+}
+
 #portfolio img {
-  width: 200px;
+  width: 300px;
   height: 150px;
   overflow: hidden;
 }
@@ -219,7 +229,15 @@ footer h3 {
 }
 
 /* media queries for desktop */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
+  /* .navbar-brand{
+    padding-right: 500px;
+  } */
+
+  .navbar-nav{
+    margin-left: 500px;
+  }
+
   #hero #holder {
     display: inline;
     color: transparent;
