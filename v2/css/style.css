@@ -127,11 +127,7 @@ nav li {
 /* #d6dcf2 */
 
 .color{
-  background: linear-gradient(to top,
-  #fff ,
-  #d6dcf2 ,
-  #d6dcf2 80%
-  );
+  background: #e7e9eb;
 }
 
 
