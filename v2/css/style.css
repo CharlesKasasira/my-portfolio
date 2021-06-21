@@ -9,7 +9,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 h2 {
@@ -20,9 +20,9 @@ h3 {
   font-size: 1.8rem;
 }
 
-p {
+/* p {
   font-size: 1.1rem;
-}
+} */
 
 /* navigaion */
 nav {
@@ -219,6 +219,21 @@ footer h3, h5 {
 
 /* media queries for desktop */
 @media only screen and (min-width: 1000px) {
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.8rem;
+  }
+  
+  p {
+    font-size: 1.1rem;
+  }
  
   .navbar-nav{
     margin-left: 500px;
