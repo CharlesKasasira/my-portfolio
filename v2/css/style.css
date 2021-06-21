@@ -52,7 +52,7 @@ nav a {
   justify-content: center;
   align-items: center;
   background-position: center;
-  background-image: url(../media/img/byte-grey-phone1.png);
+  background-image: url(../media/img/byte-grey-phone1-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -225,7 +225,7 @@ footer h3, h5 {
   }
 
   #hero {
-    background-image: url(../media/img/byte-grey1.png);
+    background-image: url(../media/img/byte-grey1-min.jpg);
   }
 
 
