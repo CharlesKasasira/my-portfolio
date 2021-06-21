@@ -76,22 +76,20 @@ nav a {
 #portfolio {
   margin: 80px auto;
   text-align: center;
+  text-align: center;
   width: 80%;
+  justify-content: center;
+  
 }
-
-
 #portfolio .card {
   width: 300px;
   height: 350px;
   overflow: hidden;
 }
-
 #portfolio h2{
   margin-bottom: 50px;
   font-weight: bold;
 }
-
-
 #portfolio a{
   text-decoration: none;
   color: #d21f46;
@@ -237,5 +235,9 @@ footer h3, h5 {
     height: 350px;
     padding: 0;
     overflow: hidden;
+  }
+  #blog img {
+    height: 300px;
+    width: 350px;
   }
 }
