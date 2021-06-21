@@ -5,28 +5,13 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   font-family: 'Open Sans', sans-serif;
 }
-/* h1 {
-  font-size: 2rem;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.8rem;
-} */
-
-/* p {
-  font-size: 1.1rem;
-} */
 
 /* navigaion */
 nav {
-  background-color: #0d0d0d;
+  background-color: #000;
   display: flex;
   padding: 10px;
 }
@@ -34,8 +19,6 @@ nav {
 nav a {
   font-weight: bold;
 }
-
-
 
 .nav-item{
   padding-left: 50px;
@@ -61,6 +44,7 @@ nav a {
 
 #hero h1 {
   color: #fff;
+  font-weight: bold;
 }
 
 #hero h3 {
@@ -70,7 +54,6 @@ nav a {
 
 #hero p{
   color: white;
-  /* width: 500px; */
 }
 
 .cta {
@@ -88,10 +71,10 @@ nav a {
   background-color: #fff;
 }
 
+
 /* Portfolio Section */
 #portfolio {
-  margin: 0 auto;
-  margin-top: 50px;
+  margin: 80px auto;
   text-align: center;
   width: 80%;
 }
@@ -106,6 +89,7 @@ nav a {
 
 #portfolio h2{
   margin-bottom: 50px;
+  font-weight: bold;
 }
 
 #portfolio img {
@@ -122,7 +106,7 @@ nav a {
 
 /* testmonial */
 #testmonial {
-  margin: 30px auto;
+  margin: 80px auto;
   width: 80%;
   padding: 50px;
   text-align: center;
@@ -139,6 +123,7 @@ nav a {
 #testmonial h2 {
   text-align: center;
   padding-bottom: 20px;
+  font-weight: bold;
 }
 
 #testmonial img {
@@ -149,9 +134,8 @@ nav a {
 /* blog */
 
 #blog {
-  margin-top: 30px;
   width: 80%;
-  margin: 30px auto;
+  margin: 80px auto;
   text-align: center;
 }
 #blog main{
@@ -163,15 +147,12 @@ nav a {
 }
 
 #blog h2 {
-  width: 80%;
   text-align: center;
   padding-bottom: 20px;
+  font-weight: bold;
 }
 
 
-/* #blog main {
-  justify-content: center;
-} */
 
 #blog a {
   text-decoration: none;
@@ -251,5 +232,12 @@ footer h3, h5 {
 
   #hero p{
     width: 500px;
+  }
+
+  #portfolio .card {
+    width: 300px;
+    height: 350px;
+    padding: 0;
+    overflow: hidden;
   }
 }
