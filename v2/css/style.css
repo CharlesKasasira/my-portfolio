@@ -70,7 +70,7 @@ nav a {
 
 #hero p{
   color: white;
-  width: 500px;
+  /* width: 500px; */
 }
 
 .cta {
@@ -232,5 +232,9 @@ footer h3, h5 {
   #hero #holder {
     display: inline;
     color: transparent;
+  }
+
+  #hero p{
+    width: 500px;
   }
 }
