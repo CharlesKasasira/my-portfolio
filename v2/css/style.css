@@ -133,25 +133,27 @@ nav a {
 
 /* testmonial */
 #testmonial {
-  margin: 80px auto;
-  width: 80%;
-  padding: 50px;
+  margin: 80px 0;
+  padding: 20px;
   text-align: center;
-}
-
-/* #d6dcf2 */
-
-.color{
   background: #e7e9eb;
 }
 
-
-
-
-#testmonial p{
-  text-align: justify;
+.testmonial {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  justify-content: center;
 }
 
+.testmonial article {
+  width: 300px;
+  height: 350px;
+  text-align: center;
+  margin: auto;
+}
 #testmonial img {
   width: 150px;
   height: 150px;
@@ -283,6 +285,11 @@ footer h3, h5 {
 
   #hero p{
     width: 500px;
+  }
+
+  .testmonial {
+    display: flex;
+    flex-direction: row;
   }
 
   #portfolio .portfolio-items {
