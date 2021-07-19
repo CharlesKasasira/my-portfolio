@@ -328,7 +328,6 @@ footer h5{
   .blog-thumbnail{
     height: 300px;
     overflow: hidden;
-    border: 3px solid blue;
   }
 
   #blog img {
