@@ -19,7 +19,7 @@ h1 {
 nav {
   background-color: #000;
   display: flex;
-  padding: 10px;
+  padding: 5px;
 }
 
 nav a {
@@ -27,7 +27,7 @@ nav a {
 }
 
 .nav-item{
-  padding-left: 50px;
+  padding-left: 25px;
 }
 
 
@@ -105,6 +105,15 @@ nav a {
   transition: 0.3s ease box-shadow;
   margin-bottom: 30px;
 }
+
+.portfolio-item p{
+  padding: 0 20px;
+}
+
+.portfolio-item a{
+  color: crimson;
+}
+
 #portfolio .portfolio-item:hover {
   box-shadow: 0px 0px 5px 0 #0000002c;
 }
@@ -121,7 +130,6 @@ nav a {
 
 #portfolio a{
   text-decoration: none;
-  color: #d21f46;
 }
 
 /*End portfolio Section */
@@ -150,12 +158,12 @@ nav a {
 
 .testmonial article {
   width: 300px;
-  height: 350px;
+  /*height: 350px; */
   text-align: center;
-  margin: auto;
+  /* margin: auto; */
   background-color: #fff;
   padding: 20px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 #testmonial span{
@@ -163,6 +171,10 @@ nav a {
   font-size: 2rem;
   font-weight: bolder;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.color{
+  color: gray;
 }
 
 #testmonial img {
@@ -204,9 +216,16 @@ nav a {
   text-align: end;
 }
 
+
+.blog-thumbnail{
+  height: 300px;
+  overflow: hidden;
+}
+
 #blog img {
-  height: 250px;
-  width: 250px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 #blog a p {
@@ -236,6 +255,10 @@ footer figure img {
 footer h3, h5 {
   color: #fff;
   margin: 0 auto;
+}
+
+footer h5{
+  padding: 10px;
 }
 
 #hero #holder {
@@ -292,6 +315,7 @@ footer h3, h5 {
   .testmonial {
     display: flex;
     flex-direction: row;
+    gap: 20px;
   }
 
   #portfolio .portfolio-items {
