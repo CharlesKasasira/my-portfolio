@@ -139,6 +139,12 @@ nav a {
   text-decoration: none;
 }
 
+#myPortolio{
+  width: 200px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
 /*End portfolio Section */
 
 
