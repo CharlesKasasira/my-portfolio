@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Open+Sans&family=Oswald&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Open+Sans&family=Oswald&display=swap");
 
 /* generals */
 * {
   margin: 0;
   padding: 0;
   /* box-sizing: border-box; */
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -17,7 +17,7 @@ h1 {
 
 /* navigaion */
 
-header{
+header {
   width: 100%;
   height: 80px;
   position: fixed;
@@ -26,19 +26,16 @@ header{
 nav {
   background-color: #000;
   display: flex;
-  padding: 5px; 
+  padding: 5px;
 }
 
 nav a {
   font-weight: bold;
 }
 
-.nav-item{
+.nav-item {
   padding-left: 25px;
 }
-
-
-
 
 /* hero */
 #hero {
@@ -53,8 +50,6 @@ nav a {
   background-size: cover;
 }
 
-
-
 #hero h1 {
   color: #fff;
   margin-bottom: 10px;
@@ -65,7 +60,7 @@ nav a {
   margin-bottom: 30px;
 }
 
-#hero p{
+#hero p {
   color: white;
 }
 
@@ -84,11 +79,9 @@ nav a {
   background-color: #fff;
 }
 
-
-
 /* portfolio Section */
 #portfolio {
-  display:flex;
+  display: flex;
   margin-top: 80px;
   text-align: center;
 }
@@ -101,8 +94,8 @@ nav a {
   flex-direction: column;
 }
 #portfolio .portfolio-item {
-  width: 300px;
-  height: 350px;
+  width: 250px;
+  height: 300px;
   text-align: center;
   border-radius: 10px;
   margin: auto;
@@ -113,11 +106,11 @@ nav a {
   margin-bottom: 30px;
 }
 
-.portfolio-item p{
+.portfolio-item p {
   padding: 0 20px;
 }
 
-.portfolio-item a{
+.portfolio-item a {
   color: crimson;
 }
 
@@ -135,22 +128,17 @@ nav a {
   font-weight: 500;
 }
 
-#portfolio a{
+#portfolio a {
   text-decoration: none;
 }
 
-#myPortolio{
+#myPortolio {
   width: 200px;
   border-radius: 20px;
   font-weight: 600;
 }
 
 /*End portfolio Section */
-
-
-
-
-
 
 /* testmonial */
 #testmonial {
@@ -180,14 +168,15 @@ nav a {
   /* margin-bottom: 20px; */
 }
 
-#testmonial span{
+#testmonial span {
   color: #e7e9eb;
   font-size: 2rem;
   font-weight: bolder;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.color{
+.color {
   color: gray;
 }
 
@@ -196,14 +185,13 @@ nav a {
   height: 100px;
 }
 
-#testmonial article h3{
+#testmonial article h3 {
   font-size: 1.2rem;
 }
 
-.ptest{
+.ptest {
   min-height: 120px;
 }
-
 
 /* blog */
 
@@ -212,11 +200,11 @@ nav a {
   margin: 80px auto;
   text-align: center;
 }
-#blog main{
+#blog main {
   justify-content: center;
 }
 
-#blog article p{
+#blog article p {
   text-align: justify;
 }
 
@@ -226,15 +214,11 @@ nav a {
   font-weight: bold;
 }
 
-
-
 #blog a {
   text-decoration: none;
   color: #d21f46;
   text-align: end;
 }
-
-
 
 #blog a p {
   margin-bottom: 0;
@@ -260,12 +244,13 @@ footer figure img {
   /* margin: 5px; */
 }
 
-footer h3, h5 {
+footer h3,
+h5 {
   color: #fff;
   margin: 0 auto;
 }
 
-footer h5{
+footer h5 {
   padding: 10px;
 }
 
@@ -273,18 +258,17 @@ footer h5{
   display: none;
 }
 
-.fa {  
-  padding: 20px;  
-  text-align: center;  
-  margin: 5px 2px; 
-  width: 50px;  
+.fa {
+  padding: 20px;
+  text-align: center;
+  margin: 5px 2px;
+  width: 50px;
   height: 50px;
   font-size: 2rem;
   color: #fff;
 }
 
-
-.blog-thumbnail{
+.blog-thumbnail {
   height: 170px;
   overflow: hidden;
 }
@@ -295,26 +279,25 @@ footer h5{
   object-fit: cover;
 }
 
-
 /* media queries for desktop */
 @media only screen and (min-width: 1000px) {
   h1 {
     font-size: 3rem;
   }
-  
+
   h2 {
     font-size: 2rem;
   }
-  
+
   h3 {
     font-size: 1.8rem;
   }
-  
+
   p {
     font-size: 1.1rem;
   }
- 
-  .navbar-nav{
+
+  .navbar-nav {
     margin-left: 500px;
   }
 
@@ -322,20 +305,18 @@ footer h5{
     background-image: url(../media/img/byte-grey1-min.jpg);
   }
 
-
   #hero #holder {
     display: inline;
     color: transparent;
   }
 
-  #hero p{
+  #hero p {
     width: 500px;
   }
 
   .testmonial {
     display: flex;
     flex-direction: row;
-    
   }
 
   #portfolio .portfolio-items {
@@ -343,7 +324,12 @@ footer h5{
     flex-direction: row;
   }
 
-  .blog-thumbnail{
+  #portfolio .portfolio-item {
+    width: 300px;
+    height: 350px;
+  }
+
+  .blog-thumbnail {
     height: 300px;
     overflow: hidden;
   }
@@ -352,12 +338,10 @@ footer h5{
     height: 300px;
     width: 350px;
   }
-  
+
   #blog img {
     width: 100%;
     height: auto;
     object-fit: cover;
   }
-  
 }
-
