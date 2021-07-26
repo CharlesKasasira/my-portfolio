@@ -140,10 +140,11 @@ nav a {
 
 #hire {
   border: 2px solid crimson;
+  background-color: crimson;
 }
 
 #hire:hover {
-  border: 2px solid crimson;
+  background-color: #fff;
 }
 
 /*End portfolio Section */
