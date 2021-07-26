@@ -138,6 +138,10 @@ nav a {
   font-weight: 600;
 }
 
+#hire {
+  border: 2px solid crimson;
+}
+
 #hire:hover {
   border: 2px solid crimson;
 }
